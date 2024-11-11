@@ -1,0 +1,5 @@
+String1 = input()
+String2 = input()
+len2 = len(String2)
+output = ("*" * len2 + String1[len2:])
+print(output)
